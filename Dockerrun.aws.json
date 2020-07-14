@@ -1,21 +1,21 @@
 {
-    "AWSEBDockerrunVersion": 2,
-    "volumes": [],
-    "containerDefinitions": [
-      {
-        "name": "test",
-        "image": "904514422994.dkr.ecr.us-west-2.amazonaws.com/docker_erc_test:latest",
-        "environment": [],
-        "essential": true,
-        "memory": 1536,
-        "mountPoints": [],
-        "portMappings": [
-          {
-            "containerPort": 8081,
-            "hostPort": 8081
-          }
-        ]
-      }
-    ]
-  }
+  "AWSEBDockerrunVersion": 2,
+  "volumes": [],
+  "containerDefinitions": [
+    {
+      "name": "test",
+      "image": "904514422994.dkr.ecr.us-west-2.amazonaws.com/docker_erc_test:latest",
+      "environment": [],
+      "essential": true,
+      "memory": 500,
+      "mountPoints": [],
+      "portMappings": [
+        {
+          "containerPort": 8081,
+          "hostPort": 8081
+        }
+      ]
+    }
+  ]
+}
   
