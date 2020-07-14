@@ -1,0 +1,2 @@
+#!/bin/bahs
+curl http://52.88.237.38:6969/after_deployed_aws.ico
